@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akshar', sans-serif;
+}
+
+
+body{
+    background-color: #591f8f;
+}
+
+#content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    box-shadow: 5px 5px #1f1f1f;
+    margin-top: 1.0%;
+    width: 500px;
+    height: 75px;
+    font-size: 30px;
+
+}
+#taskSet{
+    height: 30px;
+    width: 300px;
+    color: #ffffff;
+    font: 14px;
+    background-color: #444444;
+}
+.taskButton{
+    font-weight: 600;
+    width: 18px;
+    border: 1px solid #000000;
+}
+.taskCheckbox{
+    border: 1px solid #000000;
+    color: green;
+}
